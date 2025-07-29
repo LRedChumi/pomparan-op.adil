@@ -105,3 +105,25 @@ footer {
   padding: 20px 0;
   margin-top: 40px;
 }
+
+.beranda-grid {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.beranda-teks {
+  flex: 1;
+}
+
+.beranda-gambar {
+  flex: 1;
+  text-align: center;
+}
+
+.beranda-gambar img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
