@@ -1,113 +1,59 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>POMPARAN OP.ADIL JABODETABEK</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f8f8f8;
-    }
-    header {
-      background-color: #5a8f7b;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #333;
-      overflow: hidden;
-    }
-    nav a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      background: #575757;
-    }
-    section {
-      padding: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px;
-      border-radius: 10px;
-    }
-    footer {
-      background: #5a8f7b;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-    .form-input {
-      max-width: 400px;
-      margin: auto;
-    }
-    .form-input input, .form-input textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KELUARGA POMPARAN OP.ADIL</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>POMPARAN OP.ADIL</h1>
-    <p>Bersama Dalam Kasih, Tumbuh Dalam Harmoni.</p>
+    <div class="container">
+      <h1>Keluarga Pomparan Op.adil</h1>
+      <p>Bersatu, berbagi, dan tumbuh bersama</p>
+    </div>
   </header>
 
   <nav>
-    <a href="#beranda">Beranda</a>
-    <a href="#tentang">Tentang</a>
-    <a href="#galeri">Galeri</a>
-    <a href="#kontak">Kontak</a>
+    <ul class="container">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
   </nav>
 
-  <section id="beranda">
+  <section id="beranda" class="container">
     <h2>Selamat Datang</h2>
-    <p>Selamat datang di website resmi keluarga besar Pomparan Op.Adil. Tempat berbagi kenangan, cerita, dan informasi keluarga.</p>
+    <p>Selamat datang di website keluarga besar pomparan op.adil. Di sini kita berbagi cerita, momen, dan kenangan indah.</p>
   </section>
 
-  <section id="tentang">
+  <section id="tentang" class="container">
     <h2>Tentang Keluarga</h2>
-    <p>Keluarga pomparan op.adil berasal dari berbagai kota dan provinsi telah tumbuh menjadi keluarga besar yang tersebar di berbagai wilayah Indonesia.</p>
+    <p>Keluarga Pomparan Op.adil adalah keluarga besar yang berasal dari berbagai kota dan provinsi. Kami terdiri dari berbagai generasi yang saling mendukung dan menginspirasi.</p>
   </section>
 
-  <section id="galeri">
-    <h2>Galeri Foto</h2>
+  <section id="galeri" class="container">
+    <h2>Galeri Keluarga</h2>
     <div class="gallery">
-      <img src="https://via.placeholder.com/300x200" alt="Foto Keluarga 1">
-      <img src="https://via.placeholder.com/300x200" alt="Foto Keluarga 2">
-      <img src="https://via.placeholder.com/300x200" alt="Foto Keluarga 3">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 1" />
+      <img src="https://via.placeholder.com/300x200" alt="Foto 2" />
+      <img src="https://via.placeholder.com/300x200" alt="Foto 3" />
     </div>
   </section>
 
-  <section id="kontak">
-    <h2>Kontak Kami</h2>
-    <div class="form-input">
-      <form>
-        <input type="text" placeholder="Nama" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Pesan Anda" rows="4" required></textarea>
-        <input type="submit" value="Kirim">
-      </form>
-    </div>
+  <section id="kontak" class="container">
+    <h2>Kontak</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Keluarga Pomparan Op.Adil. Dibuat Dengan Cinta Kasih ♥</p>
+    <p>&copy; 2025 Keluarga Pomparan Op.adil. Dibuat Dengan Cinta Kasih .</p>
   </footer>
-
 </body>
 </html>
